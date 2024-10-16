@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fokir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-md position-absolute w-100 bg-transparent">
+      <div class="container">
+        <a class="logo fw-bolder main-color sub-font" href="#">Fokir</a>
+        <div
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item pb-3 pt-3 pb-md-0 pt-md-0">
+              <a
+                class="nav-link active text-white fs-6 sub-font fw-light transition px-3"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item pb-3 pb-md-0">
+              <a
+                class="nav-link text-white fs-6 sub-font fw-light transition px-3"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item pb-3 pb-md-0">
+              <a
+                class="nav-link text-white fs-6 sub-font fw-light transition px-3"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item pb-3 pb-md-0">
+              <a
+                class="nav-link text-white fs-6 sub-font fw-light transition px-3"
+                href="#portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item pb-3 pb-md-0">
+              <a
+                class="nav-link text-white fs-6 sub-font fw-light transition px-3"
+                href="#testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav-item pb-3 pb-md-0">
+              <a
+                class="nav-link text-white fs-6 sub-font fw-light transition px-3"
+                href="#blog"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item pb-3 pb-md-0">
+              <a
+                class="nav-link text-white fs-6 sub-font fw-light transition px-3"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START HEADER -->
+    <header id="home" class="vh-100">
+      <div class="container h-100 items-center">
+        <div class="content text-center text-white main-font">
+          <h4 class="fs-4 mb-2 fw-medium">Hello i'm</h4>
+          <h1 class="main-color mb-2 fw-bolder">ALEX SMITH</h1>
+          <h3 class="fw-lighter d-flex justify-content-center">
+            <span>Professional Web</span>
+            <ul class="dynamic-txts p-0 fw-light overflow-hidden">
+              <li
+                class="ms-2 position-relative text-start border-end border-3 h-100"
+              >
+                Develober
+              </li>
+              <li
+                class="ms-2 position-relative text-start border-end border-3 h-100"
+              >
+                Designer
+              </li>
+            </ul>
+          </h3>
+          <div id="sideMenu" class="side-menu position-fixed z-3 top-0 bottom-0 transition hide-menu d-none">
+            <div class="h-100 items-center">
+              <span id="sideArrow" class="toggler position-absolute items-center pe-auto rounded-start">
+                <svg fill="#ffffff" viewBox="-4.5 0 19 19" xmlns="http://www.w3.org/2000/svg" class="cf-icon-svg" stroke="#fff" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M8.4 17.269a1.026 1.026 0 0 1-.727-.302l-6.801-6.8a1.03 1.03 0 0 1 0-1.456l6.8-6.8a1.03 1.03 0 0 1 1.456 1.455L3.055 9.439l6.073 6.073A1.03 1.03 0 0 1 8.4 17.27z"></path></g></svg>
+              </span>
+              <ul class="w-100">
+                <li class="d-block">
+                  <a href="#home" class="side-menu-link text-white d-block py-3 transition">Home</a>
+                </li>
+
+                <li class="d-block">
+                  <a href="#about" class="side-menu-link text-white d-block py-3 transition">About</a>
+                </li>
+
+                <li class="d-block">
+                  <a href="#services" class="side-menu-link text-white d-block py-3 transition">Services</a>
+                </li>
+
+                <li class="d-block">
+                  <a href="#portfolio" class="side-menu-link text-white d-block py-3 transition">Portfolio</a>
+                </li>
+
+                <li class="d-block">
+                  <a href="#testimonials" class="side-menu-link text-white d-block py-3 transition">Testimonials</a>
+                </li>
+
+                <li class="d-block">
+                  <a href="#blog" class="side-menu-link text-white d-block py-3 transition">Blog</a>
+                </li>
+
+                <li class="d-block">
+                  <a href="#contact" class="side-menu-link text-white d-block py-3 transition">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START ABOUT -->
+    <section class="about-sec py-section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-lg-4 offset-lg-1" data-aos="fade-up" data-aos-duration="1000">
+            <div class="img-box w-100 position-relative rounded">
+              <div class="about-img" class="position-relative">
+                <img
+                  src="./images/about.jpg"
+                  class="rounded w-100"
+                  alt="Alex Smith Picture"
+                />
+                <div
+                  class="img-overlayer items-center w-100 position-absolute bottom-0 start-0 rounded transition"
+                >
+                  <ul class="d-flex">
+                    <li class="me-2">
+                      <a href="#" class="p-1 text-white fs-5"
+                        ><i class="opacity-0 fa-brands fa-facebook-f"></i
+                      ></a>
+                    </li>
+                    <li class="me-2">
+                      <a href="#" class="p-1 text-white fs-5"
+                        ><i class="opacity-0 fa-brands fa-twitter"></i
+                      ></a>
+                    </li>
+                    <li class="me-2">
+                      <a href="#" class="p-1 text-white fs-5"
+                        ><i class="opacity-0 fa-brands fa-google"></i
+                      ></a>
+                    </li>
+                    <li class="me-2">
+                      <a href="#" class="p-1 text-white fs-5"
+                        ><i class="opacity-0 fa-brands fa-github"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7" data-aos="fade-up" data-aos-duration="1300">
+            <div class="personal-info w-100 ps-xl-5 ps-lg-4 ps-3 mt-4 mt-md-0"  >
+              <h2
+                class="position-relative main-txt-color main-font mb-3 fw-medium fs-2"
+              >
+                Hello,
+              </h2>
+              <p class="fs-6 sub-font sub-txt-color mb-4 pb-4 line-height">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <ul class="d-flex flex-wrap">
+                <li class="w-50 fs-6 sub-font sub-txt-color pb-2">
+                  <span class="fw-medium main-txt-color">Name:</span>Ziad Khaled
+                
+                </li>
+                <li class="w-50 fs-6 sub-font sub-txt-color pb-2">
+                  <span class="fw-medium main-txt-color">Job Title:</span> frontend developer
+                 
+                </li>
+                <li class="w-50 fs-6 sub-font sub-txt-color pb-2">
+                  <span class="fw-medium main-txt-color">Age:</span> 21 Year
+                </li>
+                <li class="w-50 fs-6 sub-font sub-txt-color pb-2">
+                  <span class="fw-medium main-txt-color">Location:</span> United
+                  States, US
+                </li>
+                <li class="w-50 fs-6 sub-font sub-txt-color pb-2">
+                  <span class="fw-medium main-txt-color">Freelance:</span>
+                  Available
+                </li>
+                <li class="w-50 fs-6 sub-font sub-txt-color pb-2">
+                  <span class="fw-medium main-txt-color">E-mail:</span>
+                 ziadfaheem681@gmail.com
+                </li>
+              </ul>
+              <div class="about-btns">
+                <button class="btn px-3 py-2 me-0 me-sm-2 transition">
+                  <a href="#" class="text-white sub-font fs-6 fw-normal"
+                    >Download CV <i class="ms-2 fa-solid fa-download"></i
+                  ></a>
+                </button>
+                <button class="btn transition px-3 py-2">
+                  <a href="#" class="text-white sub-font fs-6 fw-normal"
+                    >Hire Me <i class="ms-2 fa-solid fa-paper-plane"></i
+                  ></a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- START SERVICES -->
+    <section class="services sec-bg-color py-section" id="services">
+      <h2 class="main-sec-head position-relative text-center main-font main-txt-color fw-bolder">Our Services</h2>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 p-md-0">
+            <div class="service-box text-center transition rounded">
+              <i class="fa-solid fa-pen-ruler fs-3 main-color transition mb-4"></i>
+              <h3 class="fs-4 main-txt-color main-font mb-4">UI/UX DESIGN</h3>
+              <p class="sub-font sub-txt-color line-height fs-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 p-md-0">
+            <div class="service-box text-center transition rounded">
+              <i class="fa-solid fa-code fs-3 main-color transition mb-4"></i>
+              <h3 class="fs-4 main-txt-color main-font mb-4">
+                APP DEVELOPMENT
+              </h3>
+              <p class="sub-font sub-txt-color line-height fs-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 p-md-0">
+            <div class="service-box text-center transition rounded">
+              <i
+                class="fa-solid fa-wand-magic-sparkles fs-3 main-color transition mb-4"
+              ></i>
+              <h3 class="fs-4 main-txt-color main-font mb-4 fw-bold">
+                PRODUCT DESIGN
+              </h3>
+              <p class="sub-font sub-txt-color line-height fs-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 p-md-0">
+            <div class="service-box text-center transition rounded">
+              <i class="fa-solid fa-gears fs-3 main-color transition mb-4"></i>
+              <h3 class="fs-4 main-txt-color main-font mb-4">UI/UX DESIGN</h3>
+              <p class="sub-font sub-txt-color line-height fs-6">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END SERVICES -->
+
+    <!-- START PRORTFOLIO -->
+    <section class="portfolio py-section" id="portfolio">
+      <h2 class="main-sec-head position-relative text-center main-font main-txt-color fw-bolder">Our Portfolio</h2>
+      <div class="container">
+          <div class="my-tabs">
+            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button 
+                        class="nav-link p-2 px-sm-3 main-txt-color active" id="pills-all-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-all" 
+                        type="button" role="tab" aria-controls="pills-all" 
+                        aria-selected="true">
+                        ALL
+                    </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button 
+                        class="nav-link p-2 px-sm-3 main-txt-color" id="pills-graphic-tab" 
+                        data-bs-toggle="pill" data-bs-target="#pills-graphic" 
+                        type="button" role="tab" aria-controls="pills-graphic" 
+                        aria-selected="false">
+                        GRAPHIC
+                    </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button 
+                        class="nav-link p-2 px-sm-3 main-txt-color" id="pills-design-tab" 
+                        data-bs-toggle="pill" data-bs-target="#pills-design" 
+                        type="button" role="tab" aria-controls="pills-design" 
+                        aria-selected="false">
+                        WEB DESIGN
+                    </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button 
+                        class="nav-link p-2 px-sm-3 main-txt-color" id="pills-branding-tab"
+                        data-bs-toggle="pill" data-bs-target="#pills-branding" 
+                        type="button" role="tab" aria-controls="pills-branding"
+                        aria-selected="false">
+                        BRANDING
+                    </button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+              <div  iv class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+                  <div class="row g-4">
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/1.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/2.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-2">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-2" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-2" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-2" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/3.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-3">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-3" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                      <div class="carousel-item">
+                                                        <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                      </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-3" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-3" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/4.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-4">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-4" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                      <div class="carousel-item">
+                                                        <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                      </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-4" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-4" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/5.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-5">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-5" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                      <div class="carousel-item">
+                                                        <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                      </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-5" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-5" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/6.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-6">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-6" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                      <div class="carousel-item">
+                                                        <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                      </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-6" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-6" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-graphic" role="tabpanel" aria-labelledby="pills-graphic-tab" tabindex="0">
+                  <div class="row g-4">
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/2.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-7">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-7" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-7" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-7" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/3.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-8">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-8" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                      <div class="carousel-item">
+                                                        <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                      </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-8" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-8" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/4.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-9">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-9" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                      <div class="carousel-item">
+                                                        <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                      </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-9" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-9" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/5.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-10">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-10" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                      <div class="carousel-item">
+                                                        <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                      </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-10" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-10" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/6.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-11">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-11" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                      <div class="carousel-item">
+                                                        <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                      </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-11" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-11" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab" tabindex="0">
+                  <div class="row g-4">
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/1.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-12">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-12" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-12" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-12" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/4.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-13">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-13" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                      <div class="carousel-item">
+                                                        <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                      </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-13" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-13" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/5.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-14">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-14" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                      <div class="carousel-item">
+                                                        <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                      </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-14" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-14" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-branding-tab" tabindex="0">
+                  <div class="row g-4">
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/2.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-15">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-15" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-15" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-15" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-4">
+                          <div class="item position-relative">
+                              <img src="./images/portfolio/6.jpg" alt="portfolio"/>
+                              <span>
+                                  <!-- Button trigger modal -->
+                                      <a href="#0" class="icon fs-5 position-absolute z-1 transition" data-bs-toggle="modal" data-bs-target="#exampleModal-16">
+                                          <i class="fa-regular fa-file-image"></i>
+                                      </a>
+                              </span>
+                              <div class="port-layer position-absolute top-0 bottom-0 start-0 end-0 transition"></div>
+
+                                <!-- Modal -->
+                              <div class="modal fade" id="exampleModal-16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-body">
+                                              <button type="button" class="btn-close d-block ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                                              <!-- <img src="./images/portfolio/1.jpg" alt="portfolio"/> -->
+                                              <div id="carouselExample-16" class="carousel slide">
+                                                  <div class="carousel-inner">
+                                                      <div class="carousel-item">
+                                                        <img src="./images/portfolio/1.jpg" class="d-block w-100" alt="...">
+                                                      </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/2.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/3.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/4.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                      <img src="./images/portfolio/5.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                    <div class="carousel-item active">
+                                                      <img src="./images/portfolio/6.jpg" class="d-block w-100" alt="...">
+                                                    </div>
+                                                  </div>
+                                                  <button class="carousel-control carousel-control-prev bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-16" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                  </button>
+                                                  <button class="carousel-control carousel-control-next bg-black position-absolute top-50 translate-middle-y p-md-2" type="button" data-bs-target="#carouselExample-16" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                  </button>
+                                                </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- END PRORTFOLIO -->
+
+    <!-- START COUNTER -->
+    <section class="count-section py-section sec-bg-color" id="count">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="item text-center main-font">
+              <i class="fa-solid fa-users mb-3 main-color fs-2"></i>
+              <span class="d-block main-txt-color fw-bold fs-3 mb-3">14</span>
+              <h4 class="sub-txt-color fs-6 fw-semibold">Team Members</h4>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="item text-center main-font">
+              <i class="fa-solid fa-check-to-slot mb-3 main-color fs-3"></i>
+              <span class="d-block main-txt-color fw-bold fs-3 mb-3">25</span>
+              <h4 class="sub-txt-color fs-6 fw-semibold">Complete Projects</h4>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="item text-center main-font">
+              <i class="fa-solid fa-cloud-arrow-down mb-3 main-color fs-3"></i>
+              <span class="d-block main-txt-color fw-bold fs-3 mb-3">135</span>
+              <h4 class="sub-txt-color fs-6 fw-semibold">Files Downloaded</h4>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="item text-center main-font">
+              <i class="fa-solid fa-mug-saucer mb-3 main-color fs-3"></i>
+              <span class="d-block main-txt-color fw-bold fs-3 mb-3">89</span>
+              <h4 class="sub-txt-color fs-6 fw-semibold">Lines Of Code</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END COUNTER -->
+
+    <!-- START TESTIMONIALS -->
+    <section class="py-section" id="testimonials">
+      <h2 class="main-sec-head position-relative text-center main-font main-txt-color fw-bolder">Client's Feedback</h2>
+      <div class="container">
+        <div class="swiper" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"> 
+              <div class="feedback position-relative w-75 mx-auto d-flex justify-content-center p-4 p-md-5 rounded overflow-hidden bg-body-secondary">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class=" d-flex justify-content-center d-md-block mb-5 mb-md-0">
+                        <img src="./images/feedback.jpg" class="rounded-circle z-2 position-relative" alt="client-picture" />
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="info">
+                      <h3 class="main-font fs-4 mb-2 main-txt-color">Alex ander</h3>
+                      <a href="#" class="d-block main-font sub-txt-color mb-2"><i class="fa-solid fa-location-dot"></i> United</a>
+                      <p class="fs-6 sub-font sub-txt-color mb-4 line-height">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Exercitationem ducimus ex magni sunt, architecto vel dolore,
+                        laudantium dignissimos debitis optio! Exercitationem adipisicing
+                        elit.
+                      </p>
+                      <div class="stars">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-regular fa-star"></i></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="swiper-slide"> 
+              <div class="feedback position-relative w-75 mx-auto d-flex justify-content-center p-4 p-md-5 rounded overflow-hidden bg-body-secondary">
+                <div class="row">
+                    <div class="col-md-3">
+                      <div class=" d-flex justify-content-center d-md-block mb-5 mb-md-0">
+                          <img src="./images/feedback-2.jpg" class="rounded-circle z-2 position-relative" alt="client-picture" />
+                      </div>
+                    </div>
+                    <div class="col-md-9">
+                      <div class="info">
+                        <h3 class="main-font fs-4 mb-2 main-txt-color ">Alex ander</h3>
+                        <a href="#" class="d-block main-font sub-txt-color mb-2"><i class="fa-solid fa-location-dot"></i> United</a>
+                        <p class="fs-6 sub-font sub-txt-color mb-4 line-height">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                          Exercitationem ducimus ex magni sunt, architecto vel dolore,
+                          laudantium dignissimos debitis optio! Exercitationem adipisicing
+                          elit.
+                        </p>
+                        <div class="stars">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="swiper-pagination"></div>
+        
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
+        
+        </div>
+      </div>
+   
+    </section>
+    <!-- END TESTIMONIALS -->
+
+    <!-- START BLOG -->
+    <section class="blog py-section sec-bg-color" id="blog">
+      <h2 class="main-sec-head position-relative text-center main-font main-txt-color fw-bolder">Our Blog</h2>
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-md-4">
+            <div class="item bg-white">
+              <a href="#" class="media d-block h-50">
+                <img src="./images/blog/12.jpg" alt="blog-poster" />
+              </a>
+              <div class="post p-4">
+                <span class="d-block mb-3 fs-6 sub-font sub-txt-color"
+                  >23 November, 2015</span
+                >
+                <a
+                  class="blog-title d-block fs-4 main-font fw-semibold mb-3 sub-txt-color"
+                  href="#"
+                  >Web Design Blog Post</a
+                >
+                <p class="fs-6 sub-font line-height sub-txt-color mb-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <a
+                  href="#"
+                  class="read-more py-2 fs-6 sub-font main-txt-color fw-normal transition"
+                  >READ MORE<i class="ms-1 fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="item bg-white">
+              <div class="media d-block h-50 media-vid">
+                <iframe
+                  width="100%"
+                  height="212"
+                  allowfullscreen=""
+                  allow="autoplay; encrypted-media"
+                  frameborder="0"
+                  src="https://www.youtube.com/embed/uVju5--RqtY?feature=oembed"
+                ></iframe>
+              </div>
+              <div class="post p-4">
+                <span class="d-block mb-3 fs-6 sub-font sub-txt-color"
+                  >23 November, 2015</span
+                >
+                <a
+                  class="blog-title d-block fs-4 main-font fw-semibold mb-3 sub-txt-color"
+                  href="#"
+                  >Web Design Blog Post</a
+                >
+                <p class="fs-6 sub-font line-height sub-txt-color mb-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <a
+                  href="#"
+                  class="read-more py-2 fs-6 sub-font main-txt-color fw-normal transition"
+                  >READ MORE<i class="ms-1 fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="item bg-white right-item">
+              <a href="#" class="media d-block h-50">
+                <img src="./images/blog/32.jpg" alt="blog-poster" />
+              </a>
+              <div class="post p-4">
+                <span class="d-block mb-3 fs-6 sub-font sub-txt-color"
+                  >23 November, 2015</span
+                >
+                <a
+                  class="blog-title d-block fs-4 main-font fw-semibold mb-3 sub-txt-color"
+                  href="#"
+                  >Web Design Blog Post</a
+                >
+                <p class="fs-6 sub-font line-height sub-txt-color mb-3">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <a
+                  href="#"
+                  class="read-more py-2 fs-6 sub-font main-txt-color fw-normal transition"
+                  >READ MORE<i class="ms-1 fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END BLOG -->
+
+    <!-- START CONTACT -->
+    <section class="contact py-section" id="contact">
+      <h2 class="main-sec-head position-relative text-center main-font main-txt-color fw-bolder">Contact Us</h2>
+      <div class="container">
+        <form action="" class="sub-font w-75 mx-auto">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div>
+                <input type="text" class=" w-100 form-control" name="name" id="name" placeholder="Name"/>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <input type="email" class=" w-100 form-control" name="email" id="email" placeholder="Email"/>
+              </div>
+            </div>
+            <div class="col-12">
+              <div>
+                <input type="text" class=" w-100 form-control" name="subject" id="subject" placeholder="Subject"/>
+              </div>
+            </div>
+            <div class="col-12">
+              <div>
+                <textarea class=" w-100 form-control mb-4" name="message" id="" cols="30" rows="10" placeholder="Message for me"></textarea>
+              </div>
+            </div>
+          </div>
+        <button type="submit" class="btn text-white transition">SEND MESSAGE</button>
+      </form>
+      </div>
+
+    </section>
+    <!-- END CONTACT -->
+
+    <!-- START FOOTER -->
+    <footer>
+      <div class="text-center">
+        <div class="links mb-3">
+          <a href="#" class="text-white px-2 me-2 fs-5 transition"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="text-white px-2 me-2 fs-5 transition"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#" class="text-white px-2 me-2 fs-5 transition"><i class="fa-brands fa-google"></i></a>
+          <a href="#" class="text-white px-2 me-2 fs-5 transition"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="text-white fs-6 sub-font">Copy Right 2018 © By <a href="#" class="main-color">Theme-fair</a> All Rights Reserved</p>
+      </div>
+
+    </footer>
+    <!-- END FOOTER -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
